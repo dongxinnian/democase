@@ -1,0 +1,117 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- saved from url=(0014)about:internet -->
+    <title>task_0004</title>
+
+  <!-- Patch to make semantic elements work in IE8 and below. -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="css/task_0004.css">
+<script src="scripts/dataList.js"></script>
+<script src="scripts/support.js"></script>
+<script src="scripts/task_0004.js"></script>
+
+<body>
+    <div id = "hide"></div>
+    <div id = "box">
+        <header>
+            <h3>GTD Tools</h3>
+            <ul>
+                <li><h3>主页</h3></li>
+                <li><h3>应用</h3></li>
+                <li><h3>分享</h3></li>
+                <li><h3>应用</h3></li>
+            </ul>
+        </header>
+        <div id = "control">
+            <nav id = "task">
+                <ul class = "tasklist">
+                    <li class = "atask1"><span></span>全部文件</li>
+                    <li class = "atask2"><span></span>图片</li>
+                    <li class = "atask3"><span></span>文档</li>
+                    <li class = "atask4"><span></span>视频</li>
+                    <li class = "atask5"><span></span>种子</li>
+                    <li class = "atask6"><span></span>音乐</li>
+                    <li class = "atask7"><span></span>其它</li>
+                </ul>
+                <div class = "line"></div>
+                <div class = "share"><span></span>我的分享</div>
+                <div class = "line"></div>
+                <div class = "gabage"><span></span>回收站</div>
+                <div class="taskbottom">
+                    <ul>
+                        <li><span class = "pc"></span>同步盘</li>
+                        <li><span class = "android"></span>Android</li>
+                        <li><span class = "iphone"></span>iPhone</li>
+                        <li><span class = "more"></span>更多</li>
+                    </ul>
+                </div>
+            </nav>
+            <div id ="content">
+                <nav class = "bar">
+                    <ul>
+                        <li class="upbutton"><span></span>上传</li>
+                        <li class="newbutton"><span></span>新建文件夹</li>
+                        <li class="upwithout"><span></span>离线下载</li>
+                        <li class="mydevice"><span></span>我的设备</li>
+                    </ul>
+                </nav>
+                <div class="showcontent">
+                    <div class = "showsum">
+                        <a href="javascript:void(0);">返回上一级</a>
+                        <span>|</span>
+                        <a href="javascript:void(0);">导航</a>
+                        <div style="display: inline-block;"></div>
+                    </div>
+                    <nav class = "selectall">
+                        <div class="col-item-check">
+                            <span class="check-icon"></span>
+                        </div>
+                        <div class="list-header-operatorarea">
+                            <span>已选中0个文件/文件夹</span>
+                            <div class="list-header-operator">
+                                <ul>
+                                    <li class="g-button1"><span></span>分享</li>
+                                    <li class="g-button2"><span></span>下载</li>
+                                    <li class="g-button3"><span></span>删除</li>
+                                    <li class="g-button4"><span></span>推送到运设备</li>
+                                    <div id="renamehide"></div>
+                                    <li class="g-button5">重命名</li>
+                                    <li class="g-button6">复制到</li>
+                                    <div id="movehide"></div>
+                                    <li class="g-button7">移动到</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class = "domstyle" style="display:none;">
+                        <div id="dom" >
+                           
+                        </div>
+                        <input class = "dombutton-1" type="button" value="确定"></input>
+                        <input class = "dombutton-2" type="button" value="取消"></input>
+                    </div>
+                    <div id="warning">
+                        <i></i>
+                        <span>不能将文件移动到自身或其子目录下</span>
+                    </div>
+                    <div class = "showlist" id ="show">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+<!--         <div id = "inputtype">
+            <input class= "inputarea" type="text"/>
+            <input type = "button" value = "确定"/>
+            <input type = "button" value = "取消"/>
+        </div> -->
+    </div>
+</body>
+</html>

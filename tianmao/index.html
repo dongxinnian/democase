@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<link rel="shortcut icon" href="images/favicon.ico">-->
+     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>天猫tmall.com--上天猫，就够了</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+   
+    <script src="js/lazysizes.min.js"></script>
+   
+</head>
+
+<body>
+    <header class="container-fluid" id="header">
+        <div class="top-con">
+            <div class="img-mid"><img src="images/header-top-con.jpg" alt=""></div>
+        </div>
+        <div class="site-nav-bg">
+            <div class="site-nav container">
+                <p class="site-nav-login" pull-left>
+                    <em>喵，欢迎来天猫</em>
+                    <a href="https://login.tmall.com/">请登录</a>
+                    <a href="https://register.tmall.com/">免费注册</a>
+                </p>
+                <ul class="site-nav-menu pull-right">
+                    <li class="pull-left sn-mytb sn-listdrop">
+                        <div>
+                            <span>我的淘宝</span><i class="icon iconfont icon-roll">&#xe629;</i>
+                        </div>
+                        <ul class="borderul">
+                            <li><a href="">已买到的宝贝</a></li>
+                            <li><a href="">已卖出的宝贝</a></li>
+                        </ul>
+                    </li>
+                    <li class="pull-left sn-myfav">
+                        <i class="icon iconfont icon-red">&#xe622;</i>
+                        <a href="">我关注的品牌</a>
+                    </li>
+                    <li class="pull-left sn-myshopcart">
+                        <i class="icon iconfont icon-red">&#xe61b;</i>
+                        <a href="">购物车0件</a>
+                    </li>
+                    <li class="pull-left sn-mycollect sn-listdrop">
+                        <div>
+                            <span>收藏夹</span><i class="icon iconfont icon-roll">&#xe629;</i>
+                        </div>
+                        <ul class="borderul">
+                            <li><a href="">收藏的宝贝</a></li>
+                            <li><a href="">收藏的店铺</a></li>
+                        </ul>
+                    </li>
+                    <li class="pull-left sn-separate">
+                        <span></span>
+                    </li>
+                    <li class="pull-left sn-mobilestyle">
+                        <i class="icon iconfont icon-red">&#xe620;</i>
+                        <a href="">手机版</a>
+                    </li>
+                    <li class="pull-left sn-switchtb">
+                        <a href="">淘宝网</a>
+                    </li>
+                    <li class="pull-left sn-businessbuy">
+                        <a href="">企业购</a>
+                    </li>
+                    <li class="pull-left sn-adsupport sn-listdrop">
+                        <div>
+                            <span>商家支持</span><i class="icon iconfont icon-roll">&#xe629;</i>
+                        </div>
+                        <ul class="borderul adsupport-con">
+                            <li>
+                                <dl>
+                                    <dt>商家：</dt>
+                                    <dd><a href="">商家中心</a></dd>
+                                    <dd><a href="">商家入驻</a></dd>
+                                    <dd><a href="">运营服务</a></dd>
+                                    <dd><a href="">商家品控</a></dd>
+                                    <dd><a href="">商家工具</a></dd>
+                                    <dd><a href="">商家规则</a></dd>
+                                    <dd><a href="">天猫智库</a></dd>
+                                    <dd><a href="">喵言喵语</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>帮助：</dt>
+                                    <dd><a href="">帮助中心</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pull-left sn-sitemap sn-listdrop">
+                        <div>
+                            <span class="icon iconfont icon-red">&#xe626;</span>
+                            <span>网站导航</span><i class="icon iconfont icon-roll">&#xe629;</i>
+
+                        </div>
+                        <ul class="sitemap-content borderul">
+                            <li class="site-content site-hot">
+                                <h2>热点推荐 Hot</h2>
+                                <ul class="site-list">
+                                    <li><a href="">天猫超市</a></li>
+                                    <li><a href="">喵新鲜</a></li>
+                                    <li><a href="">科技新品</a><i class="icon iconfont iconf-new">&#xe61f;</i></li>
+                                    <li><a href="">女装新品</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">酷玩街</a></li>
+                                    <li><a href="">内衣新品</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">试美妆</a></li>
+                                    <li><a href="">内衣新品</a></li>
+                                    <li><a href="">时尚先生</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">精明妈咪</a></li>
+                                    <li><a href="">吃乐汇</a><i class="icon iconfont iconf-new">&#xe61f;</i></li>
+                                    <li><a href="">企业采购</a></li>
+                                    <li><a href="">会员积分</a></li>
+                                    <li><a href="">天猫国际</a></li>
+                                </ul>
+                            </li>
+                            <li class="site-content site-market">
+                                <h2>市场行情 Market</h2>
+                                <ul class="site-list">
+                                    <li><a href="">美妆</a></li>
+                                    <li><a href="">电器</a></li>
+                                    <li><a href="">女装</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">男装</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">女鞋</a></li>
+                                    <li><a href="">男鞋</a></li>
+                                    <li><a href="">内衣</a><i class="icon iconfont iconf-hot">&#xe616;</i></li>
+                                    <li><a href="">包箱</a></li>
+                                    <li><a href="">运动</a></li>
+                                    <li><a href="">母婴</a></li>
+                                    <li><a href="">家装</a></li>
+                                    <li><a href="">医药</a></li>
+                                    <li><a href="">食品</a></li>
+                                    <li><a href="">配饰</a><i class="icon iconfont iconf-new">&#xe61f;</i></li>
+                                    <li><a href="">汽车</a></li>
+                                </ul>
+                            </li>
+                            <li class="site-content site-brand">
+                                <h2>品牌风尚 Brand</h2>
+                                <ul class="site-list">
+                                    <li><a href="">尚天猫</a></li>
+                                    <li><a href="">大牌街</a></li>
+                                    <li><a href="">潮牌街</a></li>
+                                    <li><a href="">天猫原创</a></li>
+                                    <li><a href="">什么牌子好</a></li>
+                                </ul>
+                            </li>
+                            <li class="site-content site-help">
+                                <h2>服务指南 Help</h2>
+                                <ul class="site-list">
+                                    <li><a href="">帮助中心</a></li>
+                                    <li><a href="">品质保障</a></li>
+                                    <li><a href="">特色服务</a></li>
+                                    <li><a href="">7天退换货</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="searchbox container">
+        <div class="sb-img">
+            <img src="images/search-box-img.gif" alt="">
+        </div>
+        <div class="sb-search">
+            <form class="search-input">
+                <input type="text" placeholder="开学典礼 购齐装备" class="pull-left" name="q" autocomplete="off">
+                <button type="submit" class="pull-left">搜 索</button>
+                <ul class="search-result-lists">
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><span class="pull-left input-keyword"></span><span class="pull-left search-suggest"></span><span class="pull-right"></span></a></li>
+                    <li><a href=""><i class="icon iconfont pull-left">&#xe644;</i> <span class="pull-left"></span></a></li>
+                </ul>
+            </form>
+            <div class="hot-query">
+                <span><a href="">背带裙</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="" class="hot-query-hot">休闲裤男</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="">单鞋女</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="" class="hot-query-hot">平板电脑</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="">睡衣</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="">运动鞋</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="">拉杆箱</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="" class="hot-query-hot">书包</a></span>
+                <span class="hq-separate"></span>
+                <span><a href="">月饼</a></span>
+            </div>
+        </div>
+    </div>
+    <nav class="container-fluid">
+        <ul class="mynavbar container">
+            <li id="nc-category-type"><i class="icon iconfont">&#xe62d;</i> 商品分类</li>
+            <li class=""><i class="icon iconfont nc-icon-m">&#xe62f;</i> <i class="icon iconfont  nc-icon-s">&#xe63f;</i><img src="images/cat.png" alt=""></li>
+            <li class=""><i class="icon iconfont  nc-icon-m">&#xe61c;</i> <i class="icon iconfont nc-icon-s">&#xe640;</i><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">天猫会员</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">品牌街</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">电器城</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">喵鲜生</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">医药馆</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">营业厅</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">魅力汇</a><img src="images/cat.png" alt=""></li>
+            <li class=""><a href="">阿里旅行</a><img src="images/cat.png" alt=""></li>
+        </ul>
+    </nav>
+    <section id="Carousel" class="container-fluid">
+        <div class="container">
+            <div id="myCarousel">
+                <div class="carousel-img">
+                    <img class="lazyload" data-src="images/mycarousel-img1.jpg" alt="">
+                    <img class="lazyload" data-src="images/mycarousel-img2.jpg" alt="">
+                    <img class="lazyload" data-src="images/mycarousel-img3.jpg" alt="">
+                    <img class="lazyload" data-src="images/mycarousel-img4.jpg" alt="">
+                    <img class="lazyload" data-src="images/mycarousel-img5.jpg" alt="">
+                    <img class="lazyload" data-src="images/mycarousel-img6.jpg" alt="">
+                </div>
+                <ul class="carousel-indicator">
+                    <li class="pull-left"></li>
+                    <li class="pull-left"></li>
+                    <li class="pull-left"></li>
+                    <li class="pull-left"></li>
+                    <li class="pull-left"></li>
+                    <li class="pull-left"></li>
+                </ul>
+            </div>
+            <ul id="on-carousel">
+                <li class="oc oc-1"><i class="icon iconfont">&#xe608;</i>
+                    <a href="">女装/内衣</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女士新品</a><a href="" class="och-left-hot">短袖T恤</a><a href="">时尚套装</a><a href="" class="och-left-hot">女装商场同款</a><a href="">内衣夏季新品</a><a href="">内衣商场同款</a><a href="">睡衣套装</a><a href="">情侣家居服</a><a href="">丝袜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精选上装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="" class="och-left-hot">雪纺衫</a><a href="">针织衫</a><a href="">短外套</a><a href="">卫衣</a><a href="">小西装</a><a href="">风衣</a><a href="">吊带背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>浪漫裙装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">连衣裙</a><a href="">蕾丝连衣裙</a><a href="" class="och-left-hot">印花连衣裙</a><a href="" class="och-left-hot">真丝连衣裙</a><a href="">半身裙</a><a href="">百褶裙</a><a href="">牛仔裙</a><a href="" class="och-left-hot">背心裙</a><a href="">a字裙</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>女士下装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打底裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色女装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">时尚气质</a><a href="">套装休闲</a><a href="">运动套装</a><a href="">精选妈妈装</a><a href="">大码女装</a><a href="">职业套装</a><a href="" class="och-left-hot">旗袍礼服</a><a href="">婚纱唐装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>文胸塑身</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">聚拢文胸</a><a href="">运动文胸</a><a href="" class="och-left-hot">性感蕾丝</a><a href="">无钢圈塑身上衣</a><a href="">塑身连体衣</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>家居服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">睡衣</a><a href="">少女家居服</a><a href="" class="och-left-hot">睡袍</a><a href="">居家套装</a><a href="">全棉睡衣</a><a href="">情侣家居服</a><a href="">真丝家居服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>内裤背心</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士内裤</a><a href="">女士内裤</a><a href="">莫代尔内裤</a><a href="">无痕短裤</a><a href="" class="och-left-hot">蕾丝内裤</a><a href="">吊带背心</a><a href="">男士背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>袜类</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">棉袜</a><a href="">丝袜</a><a href="" class="och-left-hot">男士短袜</a><a href="">日式袜子</a><a href="">隐形船袜</a><a href="">连裤袜</a><a href="">瘦身袜</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-2"><i class="icon iconfont">&#xe612;</i>
+                    <a href="">男装/运动户外</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">T恤</a><a href="" class="och-left-hot">休闲裤</a><a href="">条纹T牛仔裤</a><a href="">针织运动裤</a><a href="" class="och-left-hot">潮T格子衬衫</a><a href="">纯棉印花T恤</a><a href="" class="och-left-hot">纯色衬衫</a><a href="">牛仔夹克</a><a href="">迷彩风</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士外套</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">夹克</a><a href="" class="och-left-hot">风衣</a><a href="">单西</a><a href="" class="och-left-hot">西服套装</a><a href="">皮衣</a><a href="">运动服</a><a href="">棒球衫大衣</a><a href="" class="och-left-hot">工装外套</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士裤装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打9分裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色男装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">潮牌</a><a href="">中老年大码</a><a href="" class="och-left-hot">职业装</a><a href="">民族服装</a><a href="">中山装</a><a href="">商务装套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动鞋</a><a href="" class="och-left-hot">板鞋</a><a href="">潮鞋</a><a href="">运动拖鞋</a><a href="" class="och-left-hot">篮球鞋</a><a href="">帆布鞋</a><a href="">足球鞋</a><a href="">健步鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动裤</a><a href="">运动短裤</a><a href="" class="och-left-hot">运动T恤</a><a href="" class="och-left-hot">运动套装</a><a href="" class="och-left-hot">运动外套</a><a href="">Polo衫</a><a href="">运动T恤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外鞋服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">冲锋衣</a><a href="" class="och-left-hot">防晒衣</a><a href="">速干T恤</a><a href="" class="och-left-hot">速干裤</a><a href="">溯溪鞋</a><a href="">登山鞋</a><a href="">潜水服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">钓竿</a><a href="">双肩背包</a><a href="">户外包</a><a href="">帐篷</a><a href="">手电筒</a><a href="" class="och-left-hot">防潮垫</a><a href="">刀具</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">泳衣</a><a href="" class="och-left-hot">跑步机</a><a href="">踏步机</a><a href="">自行车</a><a href="">瑜伽垫</a><a href="">轮滑</a><a href="">羽毛球拍</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-3"><i class="icon iconfont">&#xe621;</i>
+                    <a href="">女鞋/男鞋/包箱</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>凉鞋凉拖</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女凉鞋</a><a href="" class="och-left-hot">坡跟凉鞋</a><a href="">鱼嘴凉鞋</a><a href="">女拖鞋</a><a href="" class="och-left-hot">女人字拖</a><a href="">镂空皮鞋</a><a href="" class="och-left-hot">男凉鞋</a><a href="">男拖鞋</a><a href="">男人字拖</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男单鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">新品男鞋</a><a href="" class="och-left-hot">商场同款</a><a href="">休闲鞋</a><a href="" class="och-left-hot">正装皮鞋</a><a href="">休闲皮鞋</a><a href="">户外休闲板鞋</a><a href="">帆布鞋</a><a href="" class="och-left-hot">运动休闲网面鞋</a><a href="" class="och-left-hot">乐福鞋</a><a href="" class="och-left-hot">豆豆鞋</a><a href="" class="och-left-hot">布洛克伐木鞋</a><a href="">帆船鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>潮流女包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">新品推荐</a><a href="">商场同款</a><a href="">女士钱包</a><a href="">单肩包</a><a href="">斜跨包</a><a href="">手提包</a><a href="">手拿包</a><a href="">腰包</a><a href="">胸包</a><a href="">化妆包</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精品男包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士钱包</a><a href="">收纳包</a><a href="" class="och-left-hot">胸包</a><a href="">腰包</a><a href="">手拿包</a><a href="">手提包</a><a href="">斜跨包</a><a href="">单肩包</a><a href="">商场同款</a><a href="">新品推荐</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>功能钱包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">旅行箱</a><a href="" class="och-left-hot">万向轮箱</a><a href="">旅行袋</a><a href="">女士双肩包</a><a href="" class="och-left-hot">男士双肩包</a><a href="">韩版双肩包</a><a href="">铆钉双肩包</a><a href="">女士钱包</a><a href="">男士钱包</a><a href="">大容量印花</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-4"><i class="icon iconfont">&#xe609;</i>
+                    <a href="">化妆品/个人护理</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>护肤品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">官方直售</a><a href="" class="och-left-hot">面膜护肤套装</a><a href="">乳液</a><a href="">面霜精华液</a><a href="" class="och-left-hot">护手霜</a><a href="">爽肤水</a><a href="" class="och-left-hot">洁面眼霜</a><a href="">身体乳</a><a href="">身体护理</a><a href="">男士护理</a><a href="" class="och-left-hot">精油</a><a href="">芳疗丰胸</a><a href="" class="och-left-hot">面部喷雾</a><a href="">T区护理</a><a href="" class="och-left-hot">去角质</a><a href="">补水祛痘</a><a href="">敏感修护</a><a href="">线上专柜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>彩妆</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">时尚彩妆</a><a href="" class="och-left-hot">香水</a><a href="">BB霜</a><a href="" class="och-left-hot">美容工具</a><a href="">口红</a><a href="">隔离粉</a><a href="">底粉</a><a href="" class="och-left-hot">饼气垫</a><a href="">bb指甲油</a><a href="">美甲工具</a><a href="">眉笔</a><a href="">睫毛膏</a><a href="">眼线唇彩</a><a href="">眼影</a><a href="">彩妆套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士护肤</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">洁面爽肤水</a><a href="" class="och-left-hot">乳液/面霜</a><a href="">BB霜</a><a href="" class="och-left-hot">护理套装</a><a href="">面膜</a><a href="">面部精华</a><a href="" class="och-left-hot">眼部护理</a><a href="" class="och-left-hot">防晒</a><a href="">唇部护理</a><a href="">T区护理</a><a href="" class="och-left-hot">控油磨砂/去角质</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>肤质推选</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">混合偏油型</a><a href="" class="och-left-hot">中性偏干型</a><a href="">敏感性</a><a href="" class="och-left-hot">干性油性混合型</a><a href="">口红</a><a href="">中性</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>美发护发</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">发水</a><a href="" class="och-left-hot">洗进口洗发水</a><a href="">护发素</a><a href="" class="och-left-hot">发膜</a><a href="">洗护套装</a><a href="">护发精油</a><a href="">头发造型</a><a href="" class="och-left-hot">弹力素</a><a href="">染发霜</a><a href="">整顶假发</a><a href="">假发配件</a><a href="">男性假发</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>口腔护理</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">牙膏</a><a href="" class="och-left-hot">进口牙膏</a><a href="">牙刷进口</a><a href="" class="och-left-hot">牙刷漱口水</a><a href="">牙线</a><a href="">牙粉</a><a href="">口气清新剂</a><a href="" class="och-left-hot">牙贴</a><a href="">口腔美白</a><a href="">假牙清洁</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>身体女性</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">沐浴露</a><a href="">香皂</a><a href="">泡澡浴盐</a><a href="" class="och-left-hot">护足洗手液</a><a href="">手动剃须刀</a><a href="">卫生巾</a><a href="">成人护垫</a><a href="" class="och-left-hot">私处洗液</a><a href="">卫生棉条</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-5"><i class="icon iconfont">&#xe601;</i>
+                    <a href="">腕表/珠宝饰品/眼镜</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女士新品</a><a href="" class="och-left-hot">短袖T恤</a><a href="">时尚套装</a><a href="" class="och-left-hot">女装商场同款</a><a href="">内衣夏季新品</a><a href="">内衣商场同款</a><a href="">睡衣套装</a><a href="">情侣家居服</a><a href="">丝袜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精选上装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="" class="och-left-hot">雪纺衫</a><a href="">针织衫</a><a href="">短外套</a><a href="">卫衣</a><a href="">小西装</a><a href="">风衣</a><a href="">吊带背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>浪漫裙装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">连衣裙</a><a href="">蕾丝连衣裙</a><a href="" class="och-left-hot">印花连衣裙</a><a href="" class="och-left-hot">真丝连衣裙</a><a href="">半身裙</a><a href="">百褶裙</a><a href="">牛仔裙</a><a href="" class="och-left-hot">背心裙</a><a href="">a字裙</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>女士下装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打底裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色女装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">时尚气质</a><a href="">套装休闲</a><a href="">运动套装</a><a href="">精选妈妈装</a><a href="">大码女装</a><a href="">职业套装</a><a href="" class="och-left-hot">旗袍礼服</a><a href="">婚纱唐装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>文胸塑身</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">聚拢文胸</a><a href="">运动文胸</a><a href="" class="och-left-hot">性感蕾丝</a><a href="">无钢圈塑身上衣</a><a href="">塑身连体衣</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>家居服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">睡衣</a><a href="">少女家居服</a><a href="" class="och-left-hot">睡袍</a><a href="">居家套装</a><a href="">全棉睡衣</a><a href="">情侣家居服</a><a href="">真丝家居服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>内裤背心</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士内裤</a><a href="">女士内裤</a><a href="">莫代尔内裤</a><a href="">无痕短裤</a><a href="" class="och-left-hot">蕾丝内裤</a><a href="">吊带背心</a><a href="">男士背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>袜类</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">棉袜</a><a href="">丝袜</a><a href="" class="och-left-hot">男士短袜</a><a href="">日式袜子</a><a href="">隐形船袜</a><a href="">连裤袜</a><a href="">瘦身袜</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-6"><i class="icon iconfont">&#xe606;</i>
+                    <a href="">手机/数码/电脑办公</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">T恤</a><a href="" class="och-left-hot">休闲裤</a><a href="">条纹T牛仔裤</a><a href="">针织运动裤</a><a href="" class="och-left-hot">潮T格子衬衫</a><a href="">纯棉印花T恤</a><a href="" class="och-left-hot">纯色衬衫</a><a href="">牛仔夹克</a><a href="">迷彩风</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士外套</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">夹克</a><a href="" class="och-left-hot">风衣</a><a href="">单西</a><a href="" class="och-left-hot">西服套装</a><a href="">皮衣</a><a href="">运动服</a><a href="">棒球衫大衣</a><a href="" class="och-left-hot">工装外套</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士裤装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打9分裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色男装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">潮牌</a><a href="">中老年大码</a><a href="" class="och-left-hot">职业装</a><a href="">民族服装</a><a href="">中山装</a><a href="">商务装套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动鞋</a><a href="" class="och-left-hot">板鞋</a><a href="">潮鞋</a><a href="">运动拖鞋</a><a href="" class="och-left-hot">篮球鞋</a><a href="">帆布鞋</a><a href="">足球鞋</a><a href="">健步鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动裤</a><a href="">运动短裤</a><a href="" class="och-left-hot">运动T恤</a><a href="" class="och-left-hot">运动套装</a><a href="" class="och-left-hot">运动外套</a><a href="">Polo衫</a><a href="">运动T恤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外鞋服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">冲锋衣</a><a href="" class="och-left-hot">防晒衣</a><a href="">速干T恤</a><a href="" class="och-left-hot">速干裤</a><a href="">溯溪鞋</a><a href="">登山鞋</a><a href="">潜水服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">钓竿</a><a href="">双肩背包</a><a href="">户外包</a><a href="">帐篷</a><a href="">手电筒</a><a href="" class="och-left-hot">防潮垫</a><a href="">刀具</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">泳衣</a><a href="" class="och-left-hot">跑步机</a><a href="">踏步机</a><a href="">自行车</a><a href="">瑜伽垫</a><a href="">轮滑</a><a href="">羽毛球拍</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-7"><i class="icon iconfont">&#xe605;</i>
+                    <a href="">母婴玩具</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>凉鞋凉拖</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女凉鞋</a><a href="" class="och-left-hot">坡跟凉鞋</a><a href="">鱼嘴凉鞋</a><a href="">女拖鞋</a><a href="" class="och-left-hot">女人字拖</a><a href="">镂空皮鞋</a><a href="" class="och-left-hot">男凉鞋</a><a href="">男拖鞋</a><a href="">男人字拖</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男单鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">新品男鞋</a><a href="" class="och-left-hot">商场同款</a><a href="">休闲鞋</a><a href="" class="och-left-hot">正装皮鞋</a><a href="">休闲皮鞋</a><a href="">户外休闲板鞋</a><a href="">帆布鞋</a><a href="" class="och-left-hot">运动休闲网面鞋</a><a href="" class="och-left-hot">乐福鞋</a><a href="" class="och-left-hot">豆豆鞋</a><a href="" class="och-left-hot">布洛克伐木鞋</a><a href="">帆船鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>潮流女包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">新品推荐</a><a href="">商场同款</a><a href="">女士钱包</a><a href="">单肩包</a><a href="">斜跨包</a><a href="">手提包</a><a href="">手拿包</a><a href="">腰包</a><a href="">胸包</a><a href="">化妆包</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精品男包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士钱包</a><a href="">收纳包</a><a href="" class="och-left-hot">胸包</a><a href="">腰包</a><a href="">手拿包</a><a href="">手提包</a><a href="">斜跨包</a><a href="">单肩包</a><a href="">商场同款</a><a href="">新品推荐</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>功能钱包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">旅行箱</a><a href="" class="och-left-hot">万向轮箱</a><a href="">旅行袋</a><a href="">女士双肩包</a><a href="" class="och-left-hot">男士双肩包</a><a href="">韩版双肩包</a><a href="">铆钉双肩包</a><a href="">女士钱包</a><a href="">男士钱包</a><a href="">大容量印花</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-8"><i class="icon iconfont">&#xe604;</i>
+                    <a href="">零食/进口食品/茶酒</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>护肤品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">官方直售</a><a href="" class="och-left-hot">面膜护肤套装</a><a href="">乳液</a><a href="">面霜精华液</a><a href="" class="och-left-hot">护手霜</a><a href="">爽肤水</a><a href="" class="och-left-hot">洁面眼霜</a><a href="">身体乳</a><a href="">身体护理</a><a href="">男士护理</a><a href="" class="och-left-hot">精油</a><a href="">芳疗丰胸</a><a href="" class="och-left-hot">面部喷雾</a><a href="">T区护理</a><a href="" class="och-left-hot">去角质</a><a href="">补水祛痘</a><a href="">敏感修护</a><a href="">线上专柜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>彩妆</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">时尚彩妆</a><a href="" class="och-left-hot">香水</a><a href="">BB霜</a><a href="" class="och-left-hot">美容工具</a><a href="">口红</a><a href="">隔离粉</a><a href="">底粉</a><a href="" class="och-left-hot">饼气垫</a><a href="">bb指甲油</a><a href="">美甲工具</a><a href="">眉笔</a><a href="">睫毛膏</a><a href="">眼线唇彩</a><a href="">眼影</a><a href="">彩妆套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士护肤</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">洁面爽肤水</a><a href="" class="och-left-hot">乳液/面霜</a><a href="">BB霜</a><a href="" class="och-left-hot">护理套装</a><a href="">面膜</a><a href="">面部精华</a><a href="" class="och-left-hot">眼部护理</a><a href="" class="och-left-hot">防晒</a><a href="">唇部护理</a><a href="">T区护理</a><a href="" class="och-left-hot">控油磨砂/去角质</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>肤质推选</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">混合偏油型</a><a href="" class="och-left-hot">中性偏干型</a><a href="">敏感性</a><a href="" class="och-left-hot">干性油性混合型</a><a href="">口红</a><a href="">中性</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>美发护发</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">发水</a><a href="" class="och-left-hot">洗进口洗发水</a><a href="">护发素</a><a href="" class="och-left-hot">发膜</a><a href="">洗护套装</a><a href="">护发精油</a><a href="">头发造型</a><a href="" class="och-left-hot">弹力素</a><a href="">染发霜</a><a href="">整顶假发</a><a href="">假发配件</a><a href="">男性假发</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>口腔护理</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">牙膏</a><a href="" class="och-left-hot">进口牙膏</a><a href="">牙刷进口</a><a href="" class="och-left-hot">牙刷漱口水</a><a href="">牙线</a><a href="">牙粉</a><a href="">口气清新剂</a><a href="" class="och-left-hot">牙贴</a><a href="">口腔美白</a><a href="">假牙清洁</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>身体女性</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">沐浴露</a><a href="">香皂</a><a href="">泡澡浴盐</a><a href="" class="och-left-hot">护足洗手液</a><a href="">手动剃须刀</a><a href="">卫生巾</a><a href="">成人护垫</a><a href="" class="och-left-hot">私处洗液</a><a href="">卫生棉条</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-9"><i class="icon iconfont">&#xe615;</i>
+                    <a href="">生鲜水果</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女士新品</a><a href="" class="och-left-hot">短袖T恤</a><a href="">时尚套装</a><a href="" class="och-left-hot">女装商场同款</a><a href="">内衣夏季新品</a><a href="">内衣商场同款</a><a href="">睡衣套装</a><a href="">情侣家居服</a><a href="">丝袜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精选上装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="" class="och-left-hot">雪纺衫</a><a href="">针织衫</a><a href="">短外套</a><a href="">卫衣</a><a href="">小西装</a><a href="">风衣</a><a href="">吊带背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>浪漫裙装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">连衣裙</a><a href="">蕾丝连衣裙</a><a href="" class="och-left-hot">印花连衣裙</a><a href="" class="och-left-hot">真丝连衣裙</a><a href="">半身裙</a><a href="">百褶裙</a><a href="">牛仔裙</a><a href="" class="och-left-hot">背心裙</a><a href="">a字裙</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>女士下装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打底裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色女装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">时尚气质</a><a href="">套装休闲</a><a href="">运动套装</a><a href="">精选妈妈装</a><a href="">大码女装</a><a href="">职业套装</a><a href="" class="och-left-hot">旗袍礼服</a><a href="">婚纱唐装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>文胸塑身</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">聚拢文胸</a><a href="">运动文胸</a><a href="" class="och-left-hot">性感蕾丝</a><a href="">无钢圈塑身上衣</a><a href="">塑身连体衣</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>家居服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">睡衣</a><a href="">少女家居服</a><a href="" class="och-left-hot">睡袍</a><a href="">居家套装</a><a href="">全棉睡衣</a><a href="">情侣家居服</a><a href="">真丝家居服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>内裤背心</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士内裤</a><a href="">女士内裤</a><a href="">莫代尔内裤</a><a href="">无痕短裤</a><a href="" class="och-left-hot">蕾丝内裤</a><a href="">吊带背心</a><a href="">男士背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>袜类</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">棉袜</a><a href="">丝袜</a><a href="" class="och-left-hot">男士短袜</a><a href="">日式袜子</a><a href="">隐形船袜</a><a href="">连裤袜</a><a href="">瘦身袜</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-10"><i class="icon iconfont">&#xe603;</i>
+                    <a href="">大家电/生活电器</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">T恤</a><a href="" class="och-left-hot">休闲裤</a><a href="">条纹T牛仔裤</a><a href="">针织运动裤</a><a href="" class="och-left-hot">潮T格子衬衫</a><a href="">纯棉印花T恤</a><a href="" class="och-left-hot">纯色衬衫</a><a href="">牛仔夹克</a><a href="">迷彩风</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士外套</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">夹克</a><a href="" class="och-left-hot">风衣</a><a href="">单西</a><a href="" class="och-left-hot">西服套装</a><a href="">皮衣</a><a href="">运动服</a><a href="">棒球衫大衣</a><a href="" class="och-left-hot">工装外套</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士裤装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打9分裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色男装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">潮牌</a><a href="">中老年大码</a><a href="" class="och-left-hot">职业装</a><a href="">民族服装</a><a href="">中山装</a><a href="">商务装套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动鞋</a><a href="" class="och-left-hot">板鞋</a><a href="">潮鞋</a><a href="">运动拖鞋</a><a href="" class="och-left-hot">篮球鞋</a><a href="">帆布鞋</a><a href="">足球鞋</a><a href="">健步鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动裤</a><a href="">运动短裤</a><a href="" class="och-left-hot">运动T恤</a><a href="" class="och-left-hot">运动套装</a><a href="" class="och-left-hot">运动外套</a><a href="">Polo衫</a><a href="">运动T恤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外鞋服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">冲锋衣</a><a href="" class="och-left-hot">防晒衣</a><a href="">速干T恤</a><a href="" class="och-left-hot">速干裤</a><a href="">溯溪鞋</a><a href="">登山鞋</a><a href="">潜水服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">钓竿</a><a href="">双肩背包</a><a href="">户外包</a><a href="">帐篷</a><a href="">手电筒</a><a href="" class="och-left-hot">防潮垫</a><a href="">刀具</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">泳衣</a><a href="" class="och-left-hot">跑步机</a><a href="">踏步机</a><a href="">自行车</a><a href="">瑜伽垫</a><a href="">轮滑</a><a href="">羽毛球拍</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-11"><i class="icon iconfont">&#xe602;</i>
+                    <a href="">家居建材</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>凉鞋凉拖</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女凉鞋</a><a href="" class="och-left-hot">坡跟凉鞋</a><a href="">鱼嘴凉鞋</a><a href="">女拖鞋</a><a href="" class="och-left-hot">女人字拖</a><a href="">镂空皮鞋</a><a href="" class="och-left-hot">男凉鞋</a><a href="">男拖鞋</a><a href="">男人字拖</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男单鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">新品男鞋</a><a href="" class="och-left-hot">商场同款</a><a href="">休闲鞋</a><a href="" class="och-left-hot">正装皮鞋</a><a href="">休闲皮鞋</a><a href="">户外休闲板鞋</a><a href="">帆布鞋</a><a href="" class="och-left-hot">运动休闲网面鞋</a><a href="" class="och-left-hot">乐福鞋</a><a href="" class="och-left-hot">豆豆鞋</a><a href="" class="och-left-hot">布洛克伐木鞋</a><a href="">帆船鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>潮流女包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">新品推荐</a><a href="">商场同款</a><a href="">女士钱包</a><a href="">单肩包</a><a href="">斜跨包</a><a href="">手提包</a><a href="">手拿包</a><a href="">腰包</a><a href="">胸包</a><a href="">化妆包</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精品男包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士钱包</a><a href="">收纳包</a><a href="" class="och-left-hot">胸包</a><a href="">腰包</a><a href="">手拿包</a><a href="">手提包</a><a href="">斜跨包</a><a href="">单肩包</a><a href="">商场同款</a><a href="">新品推荐</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>功能钱包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">旅行箱</a><a href="" class="och-left-hot">万向轮箱</a><a href="">旅行袋</a><a href="">女士双肩包</a><a href="" class="och-left-hot">男士双肩包</a><a href="">韩版双肩包</a><a href="">铆钉双肩包</a><a href="">女士钱包</a><a href="">男士钱包</a><a href="">大容量印花</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-12"><i class="icon iconfont">&#xe60a;</i>
+                    <a href="">汽车/配件/用品</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女士新品</a><a href="" class="och-left-hot">短袖T恤</a><a href="">时尚套装</a><a href="" class="och-left-hot">女装商场同款</a><a href="">内衣夏季新品</a><a href="">内衣商场同款</a><a href="">睡衣套装</a><a href="">情侣家居服</a><a href="">丝袜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精选上装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="" class="och-left-hot">雪纺衫</a><a href="">针织衫</a><a href="">短外套</a><a href="">卫衣</a><a href="">小西装</a><a href="">风衣</a><a href="">吊带背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>浪漫裙装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">连衣裙</a><a href="">蕾丝连衣裙</a><a href="" class="och-left-hot">印花连衣裙</a><a href="" class="och-left-hot">真丝连衣裙</a><a href="">半身裙</a><a href="">百褶裙</a><a href="">牛仔裙</a><a href="" class="och-left-hot">背心裙</a><a href="">a字裙</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>女士下装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打底裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色女装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">时尚气质</a><a href="">套装休闲</a><a href="">运动套装</a><a href="">精选妈妈装</a><a href="">大码女装</a><a href="">职业套装</a><a href="" class="och-left-hot">旗袍礼服</a><a href="">婚纱唐装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>文胸塑身</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">聚拢文胸</a><a href="">运动文胸</a><a href="" class="och-left-hot">性感蕾丝</a><a href="">无钢圈塑身上衣</a><a href="">塑身连体衣</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>家居服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">睡衣</a><a href="">少女家居服</a><a href="" class="och-left-hot">睡袍</a><a href="">居家套装</a><a href="">全棉睡衣</a><a href="">情侣家居服</a><a href="">真丝家居服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>内裤背心</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士内裤</a><a href="">女士内裤</a><a href="">莫代尔内裤</a><a href="">无痕短裤</a><a href="" class="och-left-hot">蕾丝内裤</a><a href="">吊带背心</a><a href="">男士背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>袜类</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">棉袜</a><a href="">丝袜</a><a href="" class="och-left-hot">男士短袜</a><a href="">日式袜子</a><a href="">隐形船袜</a><a href="">连裤袜</a><a href="">瘦身袜</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-13"><i class="icon iconfont">&#xe60b;</i>
+                    <a href="">家纺/家饰/鲜花</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>凉鞋凉拖</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女凉鞋</a><a href="" class="och-left-hot">坡跟凉鞋</a><a href="">鱼嘴凉鞋</a><a href="">女拖鞋</a><a href="" class="och-left-hot">女人字拖</a><a href="">镂空皮鞋</a><a href="" class="och-left-hot">男凉鞋</a><a href="">男拖鞋</a><a href="">男人字拖</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男单鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">新品男鞋</a><a href="" class="och-left-hot">商场同款</a><a href="">休闲鞋</a><a href="" class="och-left-hot">正装皮鞋</a><a href="">休闲皮鞋</a><a href="">户外休闲板鞋</a><a href="">帆布鞋</a><a href="" class="och-left-hot">运动休闲网面鞋</a><a href="" class="och-left-hot">乐福鞋</a><a href="" class="och-left-hot">豆豆鞋</a><a href="" class="och-left-hot">布洛克伐木鞋</a><a href="">帆船鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>潮流女包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">新品推荐</a><a href="">商场同款</a><a href="">女士钱包</a><a href="">单肩包</a><a href="">斜跨包</a><a href="">手提包</a><a href="">手拿包</a><a href="">腰包</a><a href="">胸包</a><a href="">化妆包</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精品男包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士钱包</a><a href="">收纳包</a><a href="" class="och-left-hot">胸包</a><a href="">腰包</a><a href="">手拿包</a><a href="">手提包</a><a href="">斜跨包</a><a href="">单肩包</a><a href="">商场同款</a><a href="">新品推荐</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>功能钱包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">旅行箱</a><a href="" class="och-left-hot">万向轮箱</a><a href="">旅行袋</a><a href="">女士双肩包</a><a href="" class="och-left-hot">男士双肩包</a><a href="">韩版双肩包</a><a href="">铆钉双肩包</a><a href="">女士钱包</a><a href="">男士钱包</a><a href="">大容量印花</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-14"><i class="icon iconfont">&#xe60d;</i>
+                    <a href="">医疗保健</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">T恤</a><a href="" class="och-left-hot">休闲裤</a><a href="">条纹T牛仔裤</a><a href="">针织运动裤</a><a href="" class="och-left-hot">潮T格子衬衫</a><a href="">纯棉印花T恤</a><a href="" class="och-left-hot">纯色衬衫</a><a href="">牛仔夹克</a><a href="">迷彩风</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士外套</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">夹克</a><a href="" class="och-left-hot">风衣</a><a href="">单西</a><a href="" class="och-left-hot">西服套装</a><a href="">皮衣</a><a href="">运动服</a><a href="">棒球衫大衣</a><a href="" class="och-left-hot">工装外套</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士裤装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打9分裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色男装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">潮牌</a><a href="">中老年大码</a><a href="" class="och-left-hot">职业装</a><a href="">民族服装</a><a href="">中山装</a><a href="">商务装套装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动鞋</a><a href="" class="och-left-hot">板鞋</a><a href="">潮鞋</a><a href="">运动拖鞋</a><a href="" class="och-left-hot">篮球鞋</a><a href="">帆布鞋</a><a href="">足球鞋</a><a href="">健步鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">运动裤</a><a href="">运动短裤</a><a href="" class="och-left-hot">运动T恤</a><a href="" class="och-left-hot">运动套装</a><a href="" class="och-left-hot">运动外套</a><a href="">Polo衫</a><a href="">运动T恤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外鞋服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">冲锋衣</a><a href="" class="och-left-hot">防晒衣</a><a href="">速干T恤</a><a href="" class="och-left-hot">速干裤</a><a href="">溯溪鞋</a><a href="">登山鞋</a><a href="">潜水服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>户外用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">钓竿</a><a href="">双肩背包</a><a href="">户外包</a><a href="">帐篷</a><a href="">手电筒</a><a href="" class="och-left-hot">防潮垫</a><a href="">刀具</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>运动用品</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">泳衣</a><a href="" class="och-left-hot">跑步机</a><a href="">踏步机</a><a href="">自行车</a><a href="">瑜伽垫</a><a href="">轮滑</a><a href="">羽毛球拍</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-15"><i class="icon iconfont">&#xe60c;</i>
+                    <a href="">厨具/收纳/宠物</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>凉鞋凉拖</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女凉鞋</a><a href="" class="och-left-hot">坡跟凉鞋</a><a href="">鱼嘴凉鞋</a><a href="">女拖鞋</a><a href="" class="och-left-hot">女人字拖</a><a href="">镂空皮鞋</a><a href="" class="och-left-hot">男凉鞋</a><a href="">男拖鞋</a><a href="">男人字拖</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男单鞋</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">新品男鞋</a><a href="" class="och-left-hot">商场同款</a><a href="">休闲鞋</a><a href="" class="och-left-hot">正装皮鞋</a><a href="">休闲皮鞋</a><a href="">户外休闲板鞋</a><a href="">帆布鞋</a><a href="" class="och-left-hot">运动休闲网面鞋</a><a href="" class="och-left-hot">乐福鞋</a><a href="" class="och-left-hot">豆豆鞋</a><a href="" class="och-left-hot">布洛克伐木鞋</a><a href="">帆船鞋</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>男士内搭</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="">卫衣</a><a href="" class="och-left-hot">卫衣</a><a href="">棒球衫</a><a href="">针织衫/毛衣</a><a href="">背心</a><a href="">POLO衫</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>潮流女包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">新品推荐</a><a href="">商场同款</a><a href="">女士钱包</a><a href="">单肩包</a><a href="">斜跨包</a><a href="">手提包</a><a href="">手拿包</a><a href="">腰包</a><a href="">胸包</a><a href="">化妆包</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精品男包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士钱包</a><a href="">收纳包</a><a href="" class="och-left-hot">胸包</a><a href="">腰包</a><a href="">手拿包</a><a href="">手提包</a><a href="">斜跨包</a><a href="">单肩包</a><a href="">商场同款</a><a href="">新品推荐</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>功能钱包</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">旅行箱</a><a href="" class="och-left-hot">万向轮箱</a><a href="">旅行袋</a><a href="">女士双肩包</a><a href="" class="och-left-hot">男士双肩包</a><a href="">韩版双肩包</a><a href="">铆钉双肩包</a><a href="">女士钱包</a><a href="">男士钱包</a><a href="">大容量印花</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="oc oc-16"><i class="icon iconfont">&#xe61e;</i>
+                    <a href="">图书音像</a>
+                    <div class="on-carousel-hide">
+                        <div class="och-left">
+                            <dl>
+                                <dt><p>当季流行</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">女士新品</a><a href="" class="och-left-hot">短袖T恤</a><a href="">时尚套装</a><a href="" class="och-left-hot">女装商场同款</a><a href="">内衣夏季新品</a><a href="">内衣商场同款</a><a href="">睡衣套装</a><a href="">情侣家居服</a><a href="">丝袜</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>精选上装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">衬衫</a><a href="" class="och-left-hot">T恤</a><a href="" class="och-left-hot">雪纺衫</a><a href="">针织衫</a><a href="">短外套</a><a href="">卫衣</a><a href="">小西装</a><a href="">风衣</a><a href="">吊带背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>浪漫裙装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">连衣裙</a><a href="">蕾丝连衣裙</a><a href="" class="och-left-hot">印花连衣裙</a><a href="" class="och-left-hot">真丝连衣裙</a><a href="">半身裙</a><a href="">百褶裙</a><a href="">牛仔裙</a><a href="" class="och-left-hot">背心裙</a><a href="">a字裙</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>女士下装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">牛仔裤</a><a href="">休闲裤</a><a href="" class="och-left-hot">哈伦裤</a><a href="">背带裤</a><a href="">小脚裤</a><a href="">西装裤</a><a href="">打底裤</a><a href="">阔腿裤</a><a href="">短裤</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>特色女装</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">时尚气质</a><a href="">套装休闲</a><a href="">运动套装</a><a href="">精选妈妈装</a><a href="">大码女装</a><a href="">职业套装</a><a href="" class="och-left-hot">旗袍礼服</a><a href="">婚纱唐装</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>文胸塑身</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="" class="och-left-hot">聚拢文胸</a><a href="">运动文胸</a><a href="" class="och-left-hot">性感蕾丝</a><a href="">无钢圈塑身上衣</a><a href="">塑身连体衣</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>家居服</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">睡衣</a><a href="">少女家居服</a><a href="" class="och-left-hot">睡袍</a><a href="">居家套装</a><a href="">全棉睡衣</a><a href="">情侣家居服</a><a href="">真丝家居服</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>内裤背心</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">男士内裤</a><a href="">女士内裤</a><a href="">莫代尔内裤</a><a href="">无痕短裤</a><a href="" class="och-left-hot">蕾丝内裤</a><a href="">吊带背心</a><a href="">男士背心</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><p>袜类</p><i class="icon iconfont">&#xe638;</i></dt>
+                                <dd><a href="">棉袜</a><a href="">丝袜</a><a href="" class="och-left-hot">男士短袜</a><a href="">日式袜子</a><a href="">隐形船袜</a><a href="">连裤袜</a><a href="">瘦身袜</a></dd>
+                            </dl>
+                        </div>
+                        <div class="och-right">
+                            <img src="images/och-right-1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div id="on-carousel-right">
+                <div class="ocr-logo">
+                    <img src="images/tmail-logo.png" alt="">
+                </div>
+                <div class="ocr-login">
+                    <div>Hi~你好</div>
+                    <div><a href=""><i class="icon iconfont">&#xe63c;</i>请登录</a></div>
+                    <div><a href="">免费注册 ></a></div>
+                </div>
+                <div class="ocr-separate"></div>
+                <div class="ocr-more-info">
+                    <div><i class="icon iconfont">&#xe632;</i> 退货保障</div>
+                    <div><i class="icon iconfont">&#xe630;</i> 花呗分期</div>
+                    <div><i class="icon iconfont">&#xe631;</i> 急速退款</div>
+                    <div><a href="">更多特权 ></a></div>
+                </div>
+                <div class="ocr-commend">
+                    <div>推荐活动</div>
+                    <div class="ocr-commend-img">
+                        <img src="images/ocr-commend-img.jpg" alt="">
+                    </div>
+                    <div>儿童小书包</div>
+                    <div>2000积分</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article class="container-fluid">
+        <section class="myown container">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section class="focus-brand container">
+            <div class="fb-carousel">
+                <div class="fb-carousel-main">
+                    <div class="fb-cm">
+                        <img class="lazyload" data-src="./images/fb-cm1.png" alt=""><img class="lazyload" data-src="images/fb-cm2.png" alt=""><img class="lazyload" data-src="images/fb-cm3.png" alt=""><img class="lazyload" data-src="images/fb-cm4.png" alt=""><img class="lazyload" data-src="images/fb-cm5.png" alt=""><img class="lazyload" data-src="images/fb-cm6.png" alt="">
+                    </div>
+                    <div class="fb-cm-upper">
+                        <img src="images/fb-carousel-main-pic.png" alt="" class="fb-carousel-main-pic">
+                        <p>摄影师教你打造艺术家居</p>
+                        <p>雅漾皮肤学专家敏感肌答疑</p>
+                        <p>男神教你调杯鸡尾酒</p>
+                        <p>喜力邀梁子庚与您分享美食美酒</p>
+                        <p>米其林大厨 带你情迷西班牙</p>
+                        <p>大闸蟹狂欢季</p>
+                    </div>
+                </div>
+                <div class="fb-carousel-slideshow">
+                    <div class="fb-cs-left pull-left"><i class="icon iconfont">&#xe635;</i></div>
+                    <div class="fb-cs-right pull-right"><i class="icon iconfont">&#xe636;</i></div>
+                    <div class="fb-cs">
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm1.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#摄影师教你打造艺术家居</p>
+                            </div>
+                        </div>
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm2.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#雅漾皮肤学专家敏感肌答疑</p>
+                            </div>
+                        </div>
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm3.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#男神教你调杯鸡尾酒</p>
+                            </div>
+                        </div>
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm4.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#喜力邀梁子庚与您分享美食美酒</p>
+                            </div>
+                        </div>
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm5.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#米其林大厨 带你情迷西班牙</p>>
+                            </div>
+                        </div>
+                        <div class="fb-cs-item">
+                            <img class="lazyload" data-src="images/fb-cm6.png" alt="">
+                            <div class="fb-cs-upper">
+                                <img src="images/fb-carousel-main-pic.png" alt="" class="fb-cs-upper-pic">
+                                <p>#大闸蟹狂欢季</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fb-carousel-forecast">
+                    <div class="fb-cf pull-left"><img src="images/fb-cf-bg.png" alt=""></div>
+                    <div class="fb-cf-lists pull-left">
+                        <ul>
+                            <li>
+                                <p>王鸥直播互动传授时秘笈</p>
+                                <p>时尚编辑支招穿搭经</p>
+                            </li>
+                            <li>
+                                <p>意大利GIV酒庄集团开业狂欢</p>
+                                <p>10万权益等你拿</p>
+                            </li>
+                            <li>
+                                <p>杨洋百变洋妆首秀</p>
+                                <p>时尚编辑支招穿搭经</p>
+                            </li>
+                            <li>
+                                <p>丹麦天使首秀，国宝Arla之旅</p>
+                                <p>9月7日</p>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 10万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 145万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 224万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 3.8万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 12万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥100</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 1.5万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 18万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥30</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 73万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 27万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 121万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥50</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 184万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 523万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥5</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 230万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 63万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 37万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥15</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 108万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>优惠券 ￥25</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="icon iconfont">&#xe63e;</i>
+                        <p>关注人数 38万</p>
+                        <p>点击进入</p>
+                    </div>
+                </li>
+                <li class="fb-ul-li-last">
+                    <i class="icon iconfont">&#xe637;</i>
+                    <p>换一批</p>
+                </li>
+            </ul>
+        </section>
+        <section class="focus-recommend container">
+            <ul>
+                <li>
+                    <div class="fr-img-container fr-img-top">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-1.jpg" alt="">
+                    </div>
+                    <div class="fr-img-container fr-img-bottom">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-6.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="fr-img-container fr-img-top">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-2.jpg" alt="">
+                    </div>
+                    <div class="fr-img-container fr-img-bottom">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-7.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="fr-img-container fr-img-top">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-3.jpg" alt="">
+                    </div>
+                    <div class="fr-img-container fr-img-bottom">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-8.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="fr-img-container fr-img-top">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-4.jpg" alt="">
+                    </div>
+                    <div class="fr-img-container fr-img-bottom">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-9.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="fr-img-container fr-img-top">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-5.jpg" alt="">
+                    </div>
+                    <div class="fr-img-container fr-img-bottom">
+                        <div class="fr-img-bg"></div>
+                        <img class="lazyload" data-src="images/fr-10.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="classify-recommend container">
+            <div class="cr" id="cr-1">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>居家生活</h4>
+                    <span class="cr-head-titleEN">GROCERY & HEALTH</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">零食</a><a href="">牛奶</a><a href="">居家饰品</a><a href="">保温杯</a><a href="">保健品</a><a href="">常用药</a><a href="">热门图书</a><a href="">洗发水</a><a href="">卫生巾</a><a href="">家庭清洁</a><a href="">狗粮</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img1.jpg" alt="">
+                        <div class="fb-cf-lists cr-act-title">
+                            <ul>
+                                <li>全场低至18.8></li>
+                                <li>满200抽好礼></li>
+                                <li>爆款买一送一></li>
+                            </ul>
+                        </div>
+
+                        <div class="cr-title-con">
+                            <div class="cr-tn-title">天猫中秋月</div>
+                            <div class="cr-tn-subtitle">全场5折起</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">高颜值保鲜盒套装</div>
+                            <div class="cmc-box-subtitle">厨房装出女王范</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">小时候的味道</div>
+                            <div class="cmc-box-subtitle">儿童健康早餐冲饮</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">欧洲大革命</div>
+                            <div class="cmc-box-subtitle">双立人大牌日</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">体内修复专家</div>
+                            <div class="cmc-box-subtitle">排毒万能养颜</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">一线大牌直销</div>
+                            <div class="cmc-box-subtitle">进口放心药</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1e.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">一把乐器</div>
+                            <div class="cmc-box-subtitle">一本教材</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1f.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">厨房空间专家</div>
+                            <div class="cmc-box-subtitle">简约厨房套件</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1g.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">给TA惊喜</div>
+                            <div class="cmc-box-subtitle">最好的送花时节</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1h.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">白领上班零食</div>
+                            <div class="cmc-box-subtitle">不能让嘴停下来</div>
+                            <img class="lazyload" data-src="images/cmc-box-img1i.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr" id="cr-2">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>潮电酷玩</h4>
+                    <span class="cr-head-titleEN">ELECTRONICS</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">手机</a><a href="">iPhone</a><a href="">相机</a><a href="">数码配件</a><a href="">影音电玩</a><a href="">生活电器</a><a href="">个人护理</a><a href="">电脑硬件</a><a href="">笔记本</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img2.jpg" alt="">
+                        <div class="fb-cf-lists cr-act-title">
+                            <ul>
+                                <li>100元天猫现金积分></li>
+                                <li>12期免息付款></li>
+                                <li>送超值好礼></li>
+                            </ul>
+                        </div>
+
+                        <div class="cr-title-con">
+                            <div class="cr-tn-title">三星超级品牌日</div>
+                            <div class="cr-tn-subtitle">三星note7首发</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box cmc-box-big">
+                            <div class="cmc-box-title">三星超级品牌日</div>
+                            <div class="cmc-box-subtitle">三星note7首发</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">开学爆到</div>
+                            <div class="cmc-box-subtitle">大牌促销</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">大疆灵眸手机云台</div>
+                            <div class="cmc-box-subtitle">新品全球首发</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">影音大牌大聚会</div>
+                            <div class="cmc-box-subtitle">为奥运发声</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">影音大牌大聚会</div>
+                            <div class="cmc-box-subtitle">优惠不停</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2e.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box-big">
+                            <div class="cmc-box-title">活动漂亮</div>
+                            <div class="cmc-box-subtitle">不如买的漂亮</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2f.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box-big">
+                            <div class="cmc-box-title">戴尔燃7000</div>
+                            <div class="cmc-box-subtitle">微边框笔记本首发</div>
+                            <img class="lazyload" data-src="images/cmc-box-img2g.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr" id="cr-3">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>美丽人生</h4>
+                    <span class="cr-head-titleEN">FASHION & BEAUTY</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">连衣裙</a><a href="">T恤男</a><a href="">休闲男鞋</a><a href="">黄金项链</a><a href="">单鞋</a><a href="">女包</a><a href="">文胸</a><a href="">大牌腕表</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img3.png" alt="">
+                        <div class="cr-title-con cr-act-title">
+                            <div class="cr-tn-title">优雅而知性</div>
+                            <div class="cr-tn-subtitle">时尚女装搭配</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">舒适透气无钢圈</div>
+                            <div class="cmc-box-subtitle">比不穿还舒适的文胸</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">秋装上新</div>
+                            <div class="cmc-box-subtitle">五分袖专区</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">男士凉鞋</div>
+                            <div class="cmc-box-subtitle">舒适透气清凉一夏</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">清凉夏日趴</div>
+                            <div class="cmc-box-subtitle">轻盈透气，自由呼吸</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">大牌配饰</div>
+                            <div class="cmc-box-subtitle">水贝珠宝直供</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3e.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">一波三折</div>
+                            <div class="cmc-box-subtitle">挺好的女人秘诀</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3f.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">西部牛仔风</div>
+                            <div class="cmc-box-subtitle">高帮皮鞋大惠</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3g.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">华而不贵</div>
+                            <div class="cmc-box-subtitle">水钻头饰精选</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3h.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">每时每刻的享受</div>
+                            <div class="cmc-box-subtitle">名师设计的名表</div>
+                            <img class="lazyload" data-src="images/cmc-box-img3i.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr" id="cr-4">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>打造爱巢</h4>
+                    <span class="cr-head-titleEN">HOME</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">家具</a><a href="">大家电</a><a href="">四件套</a><a href="">健康电器</a><a href="">厨房电器</a><a href="">吸顶灯</a><a href="">平板电视</a><a href="">装修设计</a><a href="">跑步机</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img4.jpg" alt="">
+                        <div class="fb-cf-lists cr-act-title">
+                            <ul>
+                                <li>抢十万红包></li>
+                                <li>签到有好礼></li>
+                                <li>尖货3折起></li>
+                            </ul>
+                        </div>
+
+                        <div class="cr-title-con">
+                            <div class="cr-tn-title">中秋万人团购会</div>
+                            <div class="cr-tn-subtitle">家装家具家电一站购齐</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">万人团购会</div>
+                            <div class="cmc-box-subtitle">一站购齐 优惠不停</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">厨房家电精选</div>
+                            <div class="cmc-box-subtitle">买就送好礼</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">ABB开关插座</div>
+                            <div class="cmc-box-subtitle">百年精工世界品牌</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">商用厨电一站购</div>
+                            <div class="cmc-box-subtitle">正牌低价</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">长虹超级内购会</div>
+                            <div class="cmc-box-subtitle">满1999减200</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4e.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">衣物护理季</div>
+                            <div class="cmc-box-subtitle">享受品质生活</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4f.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box-mini">
+                            <div class="cmc-box-title">让父母安心</div>
+                            <div class="cmc-box-subtitle">关爱中老年健康</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4g.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box-mini">
+                            <div class="cmc-box-title">最美的电线</div>
+                            <div class="cmc-box-subtitle">餐厅装修不掉价</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4h.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box-mini">
+                            <div class="cmc-box-title">健身要坚持</div>
+                            <div class="cmc-box-subtitle">在身边才好坚持</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4i.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box-mini">
+                            <div class="cmc-box-title">科技改变生活</div>
+                            <div class="cmc-box-subtitle">让你大开眼界</div>
+                            <img class="lazyload" data-src="images/cmc-box-img4j.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr" id="cr-5">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>户外出行</h4>
+                    <span class="cr-head-titleEN">OUTDOORS & AUTOMOTIVE</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">车秒贷</a><a href="">皮肤衣</a><a href="">运动鞋</a><a href="">4s保养</a><a href="">行车记录仪</a><a href="">轮胎</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img5.jpg" alt="">
+                        <div class="fb-cf-lists cr-act-title">
+                            <ul>
+                                <li>购车送行车记录仪></li>
+                                <li>千元现金优惠></li>
+                                <li>0首付></li>
+                            </ul>
+                        </div>
+
+                        <div class="cr-title-con">
+                            <div class="cr-tn-title">新车特惠</div>
+                            <div class="cr-tn-subtitle">全国一口价</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">"鲜"车首发</div>
+                            <div class="cmc-box-subtitle">"鲜"到"鲜"得我心</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">美网网球盛宴</div>
+                            <div class="cmc-box-subtitle">明星装备2折起</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">库里中国行特别款</div>
+                            <div class="cmc-box-subtitle">专为MVP打造</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">拒绝爆胎</div>
+                            <div class="cmc-box-subtitle">铁将军轮胎报警器</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">运动健身大牌联盟</div>
+                            <div class="cmc-box-subtitle">健身好货48元起</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5e.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">潮流新坐标</div>
+                            <div class="cmc-box-subtitle">NMD商场同款开售</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5f.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">加油9.3折起</div>
+                            <div class="cmc-box-subtitle">立省油钱</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5g.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">天猫贴膜馆</div>
+                            <div class="cmc-box-subtitle">买膜送保险</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5h.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">开学有范放肆嗨</div>
+                            <div class="cmc-box-subtitle">潮流新时尚</div>
+                            <img class="lazyload" data-src="images/cmc-box-img5i.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr" id="cr-6">
+                <div class="cr-head">
+                    <span class="cr-head-color"></span>
+                    <h4>亲子时光</h4>
+                    <span class="cr-head-titleEN">KIDS & BABY</span>
+                    <div class="cr-head-recommend pull-right">
+                        <a href="">童装</a><a href="">玩具</a><a href="">待产用品</a><a href="">文教用品</a><a href="">宝宝用品</a><a href="">儿童床品</a><a href="">奶粉</a><a href="">童书</a><a href="">纸尿裤</a>
+                    </div>
+                </div>
+                <div class="cr-body">
+                    <div class="cr-big-banner pull-left">
+                        <img class="lazyload cr-big-img" data-src="images/cr-big-img6.jpg" alt="">
+                        <div class="fb-cf-lists cr-act-title">
+                            <ul>
+                                <li>爱他美低至￥199></li>
+                                <li>美赞臣新妈买一赠一></li>
+                                <li>铂臻低至￥258></li>
+                            </ul>
+                        </div>
+
+                        <div class="cr-title-con">
+                            <div class="cr-tn-title">好品质见证未来</div>
+                            <div class="cr-tn-subtitle">大牌低至5折</div>
+                            <img src="images/cr-title-con.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-mid-column pull-left">
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">秋季新品第一波</div>
+                            <div class="cmc-box-subtitle">感谢成长路上有你陪伴</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6a.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">得力办公生活</div>
+                            <div class="cmc-box-subtitle">办公新风尚</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6b.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">紫外线怎么破</div>
+                            <div class="cmc-box-subtitle">专注婴儿推车85年</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6c.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">七巧板画板年中促销</div>
+                            <div class="cmc-box-subtitle">亲子互动好礼物</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6d.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">魔妈稀缺绵羊奶粉</div>
+                            <div class="cmc-box-subtitle">进口奶源不上火易吸收</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6e.jpg" alt="">
+                        </div>
+                        <div class="cmc-box">
+                            <div class="cmc-box-title">开学报到啦</div>
+                            <div class="cmc-box-subtitle">学习好装备</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6f.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="cr-right-column pull-left">
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">陪伴最好的礼物</div>
+                            <div class="cmc-box-subtitle">儿童亲子绘本</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6g.jpg" alt="">
+                        </div>
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">老少皆宜</div>
+                            <div class="cmc-box-subtitle">正品动漫手办</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6h.jpg" alt="">
+                        </div>
+
+                        <div class="cmc-box crc-box">
+                            <div class="cmc-box-title">让皮肤有爱护</div>
+                            <div class="cmc-box-subtitle">品牌儿童洗护</div>
+                            <img class="lazyload" data-src="images/cmc-box-img6i.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cr cr-flagship" id="cr-7">
+                <div class="cr-head cr-fs-head">
+                    <span class="cr-head-color"></span>
+                    <h4>品牌旗舰店</h4>
+                    <span class="cr-head-titleEN">FLAGSHIP STORES</span>
+                </div>
+                <div class="cr-fs-body">
+                    <div class="crfs-box">
+                        <div class="crfs-box-head">
+                            <img class="lazyload" data-src="images/crfs-box-img1a.jpg" alt="">
+                            <div class="meta">
+                                <p class="title">LAB SERIES朗仕官方旗舰店</p>
+                                <p class="desc">11.1 万粉丝</p>
+                            </div>
+                            <a href="" class="pull-right">进店看看</a>
+                        </div>
+                        <ul class="shop-lists">
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img1b.jpg" alt="">
+                                <p class="sl-introduce">LAB SERIES/朗仕明星旅行套装（洁面+水+乳）体验装 </p>
+                                <p class="sl-price">￥150</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img1c.jpg" alt="">
+                                <p class="sl-introduce">LAB SERIES/朗仕男用多功能洁面乳100ml 男士洗面奶清洁控油 </p>
+                                <p class="sl-price">￥195</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img1d.jpg" alt="">
+                                <p class="sl-introduce">【聚】LAB SERIES/朗仕俊范多效保养乳液50ml 男士补水保湿 </p>
+                                <p class="sl-price">￥228</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="crfs-box">
+                        <div class="crfs-box-head">
+                            <img class="lazyload" data-src="images/crfs-box-img2a.jpg" alt="">
+                            <div class="meta">
+                                <p class="title">海俪恩隐形眼镜旗舰店</p>
+                                <p class="desc">11.4 万粉丝</p>
+                            </div>
+                            <a href="" class="pull-right">进店看看</a>
+                        </div>
+                        <ul class="shop-lists">
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img2b.jpg" alt="">
+                                <p class="sl-introduce">【买2送镜盒】海俪恩美瞳半年抛 1片 易带无感隐形眼镜 萌生宠爱</p>
+                                <p class="sl-price">￥36</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img2c.jpg" alt="">
+                                <p class="sl-introduce">【买2送护理液+镜盒】海俪恩混血大美瞳隐形眼镜桃花秀季抛2片装</p>
+                                <p class="sl-price">￥59</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img2d.jpg" alt="">
+                                <p class="sl-introduce">【买送镜盒】海俪恩美瞳萌宠半年抛2片量贩装</p>
+                                <p class="sl-price">￥79</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="crfs-box">
+                        <div class="crfs-box-head">
+                            <img class="lazyload" data-src="images/crfs-box-img3a.jpg" alt="">
+                            <div class="meta">
+                                <p class="title">hkc官方旗舰店</p>
+                                <p class="desc">35.3 万粉丝</p>
+                            </div>
+                            <a href="" class="pull-right">进店看看</a>
+                        </div>
+                        <ul class="shop-lists">
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img3b.jpg" alt="">
+                                <p class="sl-introduce">hkc c4000 24英寸曲面显示器超薄电竞hdmi</p>
+                                <p class="sl-price">￥999</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img3c.jpg" alt="">
+                                <p class="sl-introduce">HKC X3 23.5英寸144hz游戏cf电竞显示器</p>
+                                <p class="sl-price">￥999</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img3d.jpg" alt="">
+                                <p class="sl-introduce">hkc c7000 27英寸曲面显示器电竞游戏曲面屏</p>
+                                <p class="sl-price">￥1399</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="crfs-box">
+                        <div class="crfs-box-head">
+                            <img class="lazyload" data-src="images/crfs-box-img4a.jpg" alt="">
+                            <div class="meta">
+                                <p class="title">状元岛旗舰店</p>
+                                <p class="desc">1.8 万粉丝</p>
+                            </div>
+                            <a href="" class="pull-right">进店看看</a>
+                        </div>
+                        <ul class="shop-lists">
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img4b.jpg" alt="">
+                                <p class="sl-introduce">海米 开洋大虾 干货 干虾状元岛250g</p>
+                                <p class="sl-price">￥56</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img4c.jpg" alt="">
+                                <p class="sl-introduce">状元岛淡干虾皮 虾皮干货海米250g</p>
+                                <p class="sl-price">￥34.5</p>
+                            </li>
+                            <li class="shop-list">
+                                <img class="lazyload" data-src="images/crfs-box-img4d.jpg" alt="">
+                                <p class="sl-introduce">海米小海米 开洋干货海虾虾干虾仁虾海虾</p>
+                                <p class="sl-price">￥36.5</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cr cr-guess-you-like" id="cr-8">
+                <div class="cr-gyl-head">
+                    <i class="icon iconfont">&#xe63e;</i><span>猜你喜欢</span>
+                </div>
+                <ul class="cr-gyl-body">
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img1.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]Savile猫头鹰9个月-12岁汽车儿童安全座椅婴儿isofix硬接口latch</p>
+                        <p class="cr-item-price">￥1399.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img2.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]迪士尼宝宝纯棉婴儿被子幼儿园儿童盖被春夏空调凉被薄</p>
+                        <p class="cr-item-price">￥129.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img3.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]2016女士新款秋季真皮皮衣女短款机车绵羊皮春秋修身外套皮夹克</p>
+                        <p class="cr-item-price">￥690.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img4.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]中粮长城优级解百纳干红葡萄酒 750ml*6瓶整箱特价 包邮</p>
+                        <p class="cr-item-price">￥128.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img5.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]匡威2016新品帆布鞋经典款男鞋女鞋低帮学生情侣休闲鞋101001</p>
+                        <p class="cr-item-price">￥209.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img6.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]美式复古实木照片墙欧式客厅卧室创意鹿头挂墙组合</p>
+                        <p class="cr-item-price">￥228.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img7.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]薰衣草枕芯失眠茶叶枕头 荞麦枕头成人助睡眠 荞麦皮保健茶枕护颈</p>
+                        <p class="cr-item-price">￥126.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img8.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]minipeace太平鸟童装2016秋款男童外套F1BD53302</p>
+                        <p class="cr-item-price">￥279.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img9.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]协立金属M8运动智能手环蓝牙耳机通话手表心率计步2</p>
+                        <p class="cr-item-price">￥279.0</p>
+                    </li>
+                    <li class="cr-gyl-item">
+                        <img class="lazyload" data-src="images/cr-gyl-img10.jpg" alt="">
+                        <p class="cr-item-introduce">[热销]加厚天然竹冰丝席凉席三件套双人1.5m1.8米2米2.2床</p>
+                        <p class="cr-item-price">￥219.0</p>
+                    </li>
+                </ul>
+                <div class="cr-gyl-foot">
+                    <img src="images/cr-gyl-foot.png" alt="">
+                </div>
+            </div>
+        </section>
+    </article>
+    <aside>
+        <ul class="cr-nav">
+            <li>导航</li>
+            <li>
+                <a>居家生活</a>
+            </li>
+            <li>
+                <a>潮电酷玩</a>
+            </li>
+            <li>
+                <a>美丽人生</a>
+            </li>
+            <li>
+                <a>打造爱巢</a>
+            </li>
+            <li>
+                <a>户外出行</a>
+            </li>
+            <li>
+                <a>亲子时光</a>
+            </li>
+            <li>
+                <a>品牌旗舰</a>
+            </li>
+            <li>
+                <a>猜你喜欢</a>
+            </li>
+            <li>
+                <a>
+                    <i class="icon iconfont ">&#xe633;</i> 顶部
+                </a>
+            </li>
+        </ul>
+        <div class="top-searchbox ">
+            <div class="container ">
+                <div class="top-sb-img pull-left "><i class="icon iconfont pull-left ">&#xe641;</i><i class="icon iconfont pull-left ">&#xe642;</i></div>
+
+                <form class="search-input pull-left ">
+                    <input type="text " placeholder="开学典礼 购齐装备 " class="pull-left " name="q " autocomplete="off ">
+                    <button type="submit " class="pull-left ">搜 索</button>
+                    <ul class="search-result-lists ">
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><span class="pull-left input-keyword "></span><span class="pull-left search-suggest "></span><span class="pull-right "></span></a></li>
+                        <li><a href=" "><i class="icon iconfont pull-left ">&#xe644;</i> <span class="pull-left "></span></a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div class="right-nav-lists ">
+            <ul class="rn-ul ">
+                <li class="rn-list ">
+                    <i class="icon iconfont ">&#xe643;</i>
+                    <div class="rn-list-tip ">
+                        <span>我的特权</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-list rn-list-big ">
+                    <div>
+                        <i class="icon iconfont ">&#xe62f;</i> 购物车
+                    </div>
+                </li>
+                <li class="rn-list ">
+                    <i class="icon iconfont ">&#xe624;</i>
+                    <div class="rn-list-tip ">
+                        <span>我的资产</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-list ">
+                    <i class="icon iconfont ">&#xe63e;</i>
+                    <div class="rn-list-tip ">
+                        <span>我关注的品牌</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-list ">
+                    <i class="icon iconfont ">&#xe618;</i>
+                    <div class="rn-list-tip ">
+                        <span>我的收藏</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-list ">
+                    <i class="icon iconfont icon-small ">&#xe645;</i>
+                    <div class="rn-list-tip ">
+                        <span>我看过的</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-list ">
+                    <i class="icon iconfont icon-small ">&#xe623;</i>
+                    <div class="rn-list-tip ">
+                        <span>我要充值</span>
+                        <i class="icon iconfont ">&#xe63b;</i>
+                    </div>
+                </li>
+                <li class="rn-lists-bottom ">
+                    <ul>
+                        <li class="rn-list ">
+                            <i class="icon iconfont icon-small ">&#xe62a;</i>
+                            <div class="rn-list-tip ">
+                                <span>用户反馈</span>
+                            </div>
+                        </li>
+                        <li class="rn-list ">
+                            <i class="icon iconfont icon-small ">&#xe625;</i>
+                            <div class="rn-list-tip rn-list-img ">
+                                <img src="images/rn-list-img.png " alt=" ">
+                                <i class="icon iconfont ">&#xe63b;</i>
+                            </div>
+                        </li>
+                        <li class="rn-list ">
+                            <a href="#header "><i class="icon iconfont ">&#xe600;</i></a>
+                            <div class="rn-list-tip ">
+                                <span>返回顶部</span>
+                                <i class="icon iconfont ">&#xe63b;</i>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </aside>
+    <footer class="container-fluid ">
+        <div class="tmail-insure "></div>
+        <div class="tmall-desc ">
+            <dl class="td-lists pull-left ">
+                <dt>购物指南</dt>
+                <dd>
+                    <a href=" ">免费注册</a>
+                    <a href=" ">开通支付宝</a>
+                    <a href=" ">支付宝充值</a>
+                </dd>
+            </dl>
+            <dl class="td-lists pull-left ">
+                <dt>天猫保障</dt>
+                <dd>
+                    <a href=" ">发票保障</a>
+                    <a href=" ">售后规则</a>
+                    <a href=" ">缺货赔付</a>
+                </dd>
+            </dl>
+            <dl class="td-lists pull-left ">
+                <dt>支付方式</dt>
+                <dd>
+                    <a href=" ">快捷支付</a>
+                    <a href=" ">信用卡</a>
+                    <a href=" ">余额宝</a>
+                    <a href=" ">蚂蚁花呗</a>
+                    <a href=" ">货到付款</a>
+                </dd>
+            </dl>
+            <dl class="td-lists pull-left ">
+                <dt>商家服务</dt>
+                <dd>
+                    <a href=" ">商家入驻</a>
+                    <a href=" ">商家中心</a>
+                    <a href=" ">天猫智库</a>
+                    <a href=" ">天猫规则</a>
+                    <a href=" ">物流服务</a>
+                    <a href=" ">喵言喵语</a>
+                    <a href=" ">运营服务</a>
+                </dd>
+            </dl>
+            <dl class="td-lists pull-left ">
+                <dt>手机天猫</dt>
+                <dd>
+                    <a href=" " class="td-lists-bg "></a>
+                </dd>
+            </dl>
+        </div>
+        <div class="tmail-copyright">
+            <div class="container ">
+                <p class="tmail-info ">
+                    <a href=" ">关于天猫</a>
+                    <a href=" ">帮助中心</a>
+                    <a href=" ">开放平台</a>
+                    <a href=" ">诚聘英才</a>
+                    <a href=" ">联系我们</a>
+                    <a href=" ">网站合作</a>
+                    <a href=" ">法律声明</a>
+                    <a href=" ">知识产权</a>
+                    <a href=" ">廉政举报</a>
+                    <a href=" ">规则意见征集</a>
+                </p>
+                <p class="tmail-links ">阿里巴巴集团| 淘宝网 | 天猫 | 聚划算 | 全球速卖通 | 阿里巴巴国际交易市场| 1688 | 阿里妈妈 | 阿里旅行·去啊 | 阿里云计算 | YunOS | 阿里通信 | 万网 | 高德 | 优视 | 友盟 | 虾米 | 天天动听 | 来往 | 钉钉 | 支付宝</p>
+                <div class="copyright-content ">
+                    <span>增值电信业务经营许可证： 浙B2-20110446</span>
+                    <span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+                    <span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
+                    <span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
+                    <span class="copyright ">© 2003-2016 TMALL.COM 版权所有</span>
+                    <img src="images/tmail-copyright-img1.jpg " alt=" ">
+                    <img src="images/tmail-copyright-img2.jpg " alt=" ">
+                </div>
+            </div>
+        </div>
+    </footer>
+     <script src="js/scripts.js"></script>
+</body>
+
+</html>
